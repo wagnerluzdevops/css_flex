@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    border: 5px solid white;
+   justify-content: flex-end;
+   /* alinha no eixo principal - horizontal  */ 
+   /* , flex-end, center, space-between, space-around  */
+}

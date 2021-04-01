@@ -1,0 +1,10 @@
+.container {
+    align-items: flex-start;
+    display: flex;
+    border: 5px solid white;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: stretch;
+    /* SO FAZ SENTIDO SE O CONTAINER TIVER MAIS DE UMA LILNHA */
+    width: 500px;
+}

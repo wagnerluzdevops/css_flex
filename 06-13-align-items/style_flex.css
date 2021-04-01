@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    border: 5px solid white;
+    align-items: center;
+   /* alinha no eixo vertical  */
+   /* padrão é stretch , tem flex-start, flex-end, baseline  */
+   height: 600px;
+ 
+}
