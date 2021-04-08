@@ -1,16 +1,21 @@
 .container {
    display: flex;
    border: 5px solid #fff;
-   width: 800px;
+   width: 400px;
 }
 
 .container div {
     margin: 0;
-    padding: 20px 0;
-    width: 100px;
-    flex-grow: 1;
+    padding: 0;
+    width: 150px;
+    /* flex-shrink: 0;  FAZ COM QUE OS FLEX ITEMS NÃO ENCOLHAM */
+    flex-shrink: 1;
 }
 
-.container div:nth-child(2), .container div:nth-child(3) {
-    flex-grow: 2;
+.container div:nth-child(2) {
+    flex-shrink: 3;
+}
+
+.container div:nth-child(3) {
+    flex-shrink: 2;
 }
