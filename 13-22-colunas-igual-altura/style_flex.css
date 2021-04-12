@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+    /* Valor padrão, ele que faz com que os flex itens cresçam igualmente. */
+}
+
+.card {
+    padding: 0;
+    text-align: left;
+    width: 250px;
+}
+
+.card__content {
+    padding: 0 20px;
+}
+
